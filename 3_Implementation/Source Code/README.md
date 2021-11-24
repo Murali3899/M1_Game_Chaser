@@ -9,14 +9,14 @@ int i, j, height = 20, width = 20;
 int gameover, score;
 int x, y, cherryx, fruity, flag;
 
-                                           // Function to generate the fruit
+                                           
+void setup()                           // Function to generate the fruit
                                            // within the boundary
-void setup()
 {
 	gameover = 0;
 
-	                                        // Stores height and width
-	x = height / 2;
+	                                       
+	x = height / 2;                   // Stores height and width
 	y = width / 2;
 label1:
 	cherryx = rand() % 20;
@@ -29,8 +29,8 @@ label2:
 	score = 0;
 }
 
-                                            // Function to draw the boundaries
-void draw()
+                                           
+void draw()                                       // Function to draw the boundaries
 {
 	system("cls");
 	for (i = 0; i < height; i++) {
@@ -84,9 +84,9 @@ void input()
 	}
 }
 
-                                 // Function for the logic behind each moment
+                                
                                  
-void logic()
+void logic()                    // Function for the logic behind each moment
 {
 	sleep(0.01);
 	switch (flag) {
