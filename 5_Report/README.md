@@ -1,4 +1,4 @@
-                                                                          CHASER_GAME
+                                                                      CHASER_GAME
 
 REQUIREMENTS:
 HEADER FILES : #include <conio.h> #include <stdio.h> #include <stdlib.h> #include <unistd.h>
