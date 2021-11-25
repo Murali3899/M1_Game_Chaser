@@ -1,8 +1,22 @@
 HEADER FILES :
-        #include <conio.h>
-        #include <stdio.h>
-        #include <stdlib.h>
-        #include <unistd.h>
+#include <stdio.h>
+
+#include <time.h>
+
+#include <stdlib.h>
+
+#include <conio.h>
+
+#include<time.h>
+
+#include<ctype.h>
+
+#include <time.h>
+
+#include <windows.h>
+#include <process.h>
+
+
         
 TOOLS :
        
